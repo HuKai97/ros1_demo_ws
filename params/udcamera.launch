@@ -1,0 +1,9 @@
+<!-- -->
+<launch>
+
+  <node pkg="udcamera" type="udcamera" name="udcamera" output="screen">
+  </node>
+
+<!-- <node pkg="udcamera" type="udcamera" name="udcamera" output="screen" 
+      launch-prefix="gdb -ex run --args" />
+</launch> -->
